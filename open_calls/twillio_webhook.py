@@ -31,6 +31,16 @@ def fetch_history(from_number):
         act= actor(from_number)
     return act
 
+def build_list_movies():
+    with open('util/tmdb_movies.json', 'r') as movie_list:
+        movies_info = json.loads(movie_list.read())
+
+        print(movies_info[0].get('title'))
+
+        #for movie_index in len(movies_info) - 1:
+        #except Exception as e:
+            #print(e)
+
 def handle_request():
     # logger.debug(request.form)
 
@@ -40,6 +50,8 @@ def handle_request():
 
     # Fetch conversation history
     act = fetch_history(request.form['From'])
+
+    build_list_movies()
 
     #Save incoming message to history
     act.save_msg(request.form['Body'])
