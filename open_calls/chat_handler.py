@@ -5,7 +5,7 @@ from os.path import exists
 
 
 from tools.logging import logger
-from things.chat import chat
+from util.chat import chat
 
 
 import random

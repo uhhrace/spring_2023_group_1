@@ -3,7 +3,10 @@ from flask import request, g
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 from os.path import exists
 from util.actors import actor
+
+
 from tools.logging import logger
+from util.chat import chat
 from textblob import TextBlob
 
 import random
