@@ -1,5 +1,5 @@
 import json
-from things.actors import actor
+from actors import actor
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 import random
@@ -10,6 +10,11 @@ CORPUS = {}
 with open('chatbot_corpus.json', 'r') as myfile:
     CORPUS = json.loads(myfile.read())
 
+def get_movie_title(movie_index):
+    with open('util/tmdb_movies.json', 'r') as movie_list:
+        movies_info = json.loads(movie_list.read())
+
+        return movies_info[movie_index].get('title')
 
 class chat(actor):
     def __init__(self, phone_number):
