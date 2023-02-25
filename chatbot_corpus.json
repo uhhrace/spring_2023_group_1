@@ -1,37 +1,45 @@
 {
-
-
     "trigger words" : [
-	"trump" ,
-	"heels"
+	"film",
+	"films",
+    "cinema",
+    "cinemas",
+    "movie",
+    "movies",
+    "theater",
+    "theaters",
+    "theatre",
+    "theatres"
     ],
     "Part Starter" : {
 	    "SWEET" : [
-		    "HAAAY!!!!" ,
-		    "Party!",
-		    "Yes you just brought the party"
+		    "May the Force be with you." ,
+		    "I think this is the beginning of a beautiful friendship.",
+		    "I'm king of the world!"
 	    ],
 	    "MEDIUM" : [
-		    "Well Hello!",
-		    "I am trying to be nice!" ,
-		    "Bye! Party!"
+		    "Nobody puts baby in a corner.",
+		    "I am trying to be nice!",
+		    "Snap out of it!!"
 		],
 	    "SALTY" : [
 		    "Oooh.. No!",
-		    "I am in a SALTY mood, watch out!",
-		    "I don't care!"
-    	    ]
+		    "Say \"hello\" to my little friend!",
+		    "I don't care!",
+            "Hasta la vista, baby.",
+            "I'm as mad as hell, and I'm not going to take this anymore!"
+    	]
     },
     "input":{
 	    "NN":{
 	    	"SWEET": [ "Don't be a drag. Just be a queen."],
-		"MEDIUM": ["If you wanna do like memorable drag next week I can give you some tips."],
-		"SALTY" : ["Impersonating Beyoncè is not your destiny, child."]
+		    "MEDIUM": ["If you wanna do like memorable drag next week I can give you some tips."],
+		    "SALTY" : ["You've got to ask yourself one question: \n\n'Do I feel lucky?'\n\n Well, do you, punk?."]
 	    },
 	    "JJ VBG": {
-                "SWEET": ["I feel like you’re being sabotaged by your inner saboteur."],
-                "MEDIUM": ["You went too fast. I thought you were running from the cops. You’ve probably run from the cops, haven’t you Vanjie?"],
-                "SALTY" : ["Your tone seems very pointed right now."]
+                "SWEET": ["Oh my god, that reminds me of my favorite movie Inception."],
+                "MEDIUM": ["You can't handle the truth!"],
+                "SALTY" : ["Frankly, my dear, I don't give a damn."]
             }
     },
     "misc corpus" :[
