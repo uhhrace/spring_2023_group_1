@@ -1,8 +1,9 @@
 import json
-from actors import actor
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 import random
+
+from util.actors import actor
 
 sia = SentimentIntensityAnalyzer()
 

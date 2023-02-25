@@ -21,7 +21,7 @@ def handle_request():
     act = None
     if exists( f"users/{request.form['From']}.pkl") :
         with open(f"users/{request.form['From']}.pkl", 'rb') as p:
-            act = pickle.load(p) 
+            act = pickle.load(p)
     else:
         act= chat(request.form['From'])
 
