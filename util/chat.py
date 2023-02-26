@@ -41,26 +41,25 @@ class chat(actor):
         self.salty_scale =  "MEDIUM"
 
     def get_output(self,msg_input):
-        match self.convo_state:
-            # still in greeting phase, exchange pleasantries
-            case "init":
-                for greeting_phrase in CORPUS["input_greetings"]:
-                    if greeting_phrase in nltk.word_tokenize(msg_input):
-                        msg = random.choice(CORPUS["output_greetings"])
-                        # We've got our greeting, exit loop
-                        break
-                # If we get this far, user has started a topic, be an ass and redirect to our own interest
-                msg = maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
-                # We have progressed the state of the conversation, and forced them to talk about movies
-                self.convo_state = "movies"
-                return msg
-            # case "movies":
-                # TODO Jarrett 
-                # for movie in movieJSON:
+        # still in greeting phase, exchange pleasantries
+        if "init" == self.convo_state:
+            for greeting_phrase in CORPUS["input_greetings"]:
+                if greeting_phrase in nltk.word_tokenize(msg_input):
+                    msg = random.choice(CORPUS["output_greetings"])
+                    # We've got our greeting, exit loop
+                    break
+            # If we get this far, user has started a topic, be an ass and redirect to our own interest
+            msg = maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
+            # We have progressed the state of the conversation, and forced them to talk about movies
+            self.convo_state = "movies"
+            return msg
+        # else if "movies" == self.convo_state
+            # TODO Jarrett 
+            # for movie in movieJSON:
                 #     if movie in nltk.word_tokenize(msg_input):
                 #         talk_about_movie_logic(movie)
-            #Default
-            # case _:
+        #Default
+        # else
 
         sent = sia.polarity_scores(msg_input)
 
