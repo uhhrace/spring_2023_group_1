@@ -25,13 +25,14 @@ def get_movie_title(movie_index):
 def maximum_context_switch_and_problem_space_reduction_algorithm(input):
     msg_vibe = sia.polarity_scores(input)
     if msg_vibe['neu'] > .3:
-        return "Cool. Btw, I just watched " + random.choice(CORPUS["movie_titles"]) + ", have you seen it? Soooo good."
+        output = "Cool. Btw, I just watched " + random.choice(CORPUS["movie_titles"]) + ", have you seen it? Soooo good."
     # Redirect a particularly negative message
     if msg_vibe['neg'] > .8:
-        "Wow. Anyways, have you seen " + random.choice(CORPUS["movie_titles"]) + "? That always cheers me up."
+        output = "Wow. Anyways, have you seen " + random.choice(CORPUS["movie_titles"]) + "? That always cheers me up."
     # Redirect a particularly positive message
     if msg_vibe['pos'] > .6:
-        "Wow, that's awesome! Reminds me of " + random.choice(CORPUS["movie_titles"]) + ". Badass flick."
+        output = "Woah, that's awesome! Reminds me of " + random.choice(CORPUS["movie_titles"]) + ". Badass flick."
+    return output
 
 class chat(actor):
     def __init__(self, phone_number):
@@ -42,6 +43,7 @@ class chat(actor):
 
     def get_output(self,msg_input):
         # still in greeting phase, exchange pleasantries
+        print(self.convo_state)
         if "init" == self.convo_state:
             for greeting_phrase in CORPUS["input_greetings"]:
                 if greeting_phrase in nltk.word_tokenize(msg_input):
