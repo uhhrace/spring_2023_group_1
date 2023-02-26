@@ -43,10 +43,13 @@ class chat(actor):
 
     def get_output(self,msg_input):
         # still in greeting phase, exchange pleasantries
-        print(self.convo_state)
+        print("Convo state:" + self.convo_state)
+        # Convert to lowercase, tokenize
+        tokenized_input = nltk.word_tokenize(msg_input.lower())
+        print(tokenized_input)
         if "init" == self.convo_state:
             for greeting_phrase in CORPUS["input_greetings"]:
-                if greeting_phrase in nltk.word_tokenize(msg_input):
+                if greeting_phrase in tokenized_input:
                     msg = random.choice(CORPUS["output_greetings"])
                     # We've got our greeting, exit loop
                     break
