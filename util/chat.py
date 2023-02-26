@@ -37,7 +37,7 @@ class chat(actor):
     def __init__(self, phone_number):
         super().__init__(phone_number)
         self.score = 0
-        self.convo_state = actor.state
+        self.convo_state = "init"
         self.salty_scale =  "MEDIUM"
 
     def get_output(self,msg_input):
