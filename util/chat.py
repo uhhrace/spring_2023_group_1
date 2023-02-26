@@ -76,12 +76,12 @@ class chat(actor):
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
 
         msg = None
-        for i in range( len(CORPUS[ "misc corpus" ]) ):
-            msg = random.choice( CORPUS[ "misc corpus" ] )
+        for i in range( len(CORPUS[ "misc" ]) ):
+            msg = random.choice( CORPUS[ "misc" ] )
             if msg not in self.prev_msgs:
                 break
 
         if msg == None:
-            return [ random.choice( CORPUS[ "misc corpus" ] ) ]
+            return [ random.choice( CORPUS[ "misc" ] ) ]
         else:
             return [ msg ]
