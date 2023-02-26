@@ -51,8 +51,8 @@ class chat(actor):
             for greeting_phrase in CORPUS["input_greetings"]:
                 if greeting_phrase in tokenized_input:
                     msg = random.choice(CORPUS["output_greetings"])
-                    # We've got our greeting, exit loop
-                    break
+                    # We've got our greeting, return it
+                    return msg
             # If we get this far, user has started a topic, be an ass and redirect to our own interest
             msg = maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
             # We have progressed the state of the conversation, and forced them to talk about movies
