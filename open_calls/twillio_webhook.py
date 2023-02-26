@@ -29,7 +29,7 @@ def handle_request():
     output = act.get_output(request.form['Body'])
 
     message = g.sms_client.messages.create(
-                body=o_msg,
+                body=output,
                 from_=yml_configs['twillio']['phone_number'],
                 to=request.form['From'])
 
