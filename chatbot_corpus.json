@@ -11,7 +11,7 @@
     "theatre",
     "theatres"
     ],
-    "greetings":[
+    "input_greetings":[
         "hi",
         "hello",
         "hey",
@@ -40,6 +40,32 @@
         "whats up",
         "ahoy",
         "howdy"
+    ],
+    "output_greetings":[
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hiya",
+        "How are you",
+        "How are you doing",
+        "How do you do",
+        "Nice to meet you",
+        "Pleased to meet you",
+        "How have you been",
+        "Good morning",
+        "Morning",
+        "Good afternoon",
+        "Afternoon",
+        "Good evening",
+        "Evening",
+        "How are you doing",
+        "How's it going?",
+        "Nice to see you",
+        "yo",
+        "sup",
+        "What's up?",
+        "Ahoy",
+        "Howdy"
     ],
     "movie_titles":[
         "Inception",
