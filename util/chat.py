@@ -69,12 +69,13 @@ class chat(actor):
     def get_output(self,msg_input):
         # still in greeting phase, exchange pleasantries
         print("Convo state:" + self.convo_state)
-        # Convert to lowercase, tokenize
-        tokenized_input = nltk.word_tokenize(msg_input.lower())
-        print(tokenized_input)
+        # Convert to lowercase
+        msg_input = msg_input.lower()
+        # tokenized_input = nltk.word_tokenize(msg_input.lower())
+        # print(tokenized_input)
         if "init" == self.convo_state:
             for greeting_phrase in CORPUS["input_greetings"]:
-                if greeting_phrase in tokenized_input:
+                if greeting_phrase in msg_input:
                     msg = random.choice(CORPUS["output_greetings"])
                     # We've got our greeting, return it
                     return msg
@@ -85,7 +86,7 @@ class chat(actor):
             return msg
         elif "movies" == self.convo_state:
             # We've initiated talking about our movie, steamroll the conversation
-            msg = self.reference_movie(tokenized_input)
+            msg = self.reference_movie(msg_input)
 
             # Respond to user asking about ~any movie
             # for movie in CORPUS:
@@ -93,7 +94,6 @@ class chat(actor):
                         # talk_about_movie_logic(movie)
         #Default
         else:
-
             sent = sia.polarity_scores(msg_input)
 
             if sent['neu'] > .3:
