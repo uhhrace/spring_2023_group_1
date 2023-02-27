@@ -71,7 +71,6 @@
         "Inception",
         "Pulp fiction",
         "The Godfather",
-        "The Shawshank Redepmtion",
         "American Psycho",
         "Star Wars",
         "Lord of the Rings",
@@ -130,78 +129,158 @@
     },
     "reference_movie":{
         "Inception" : {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["The cast is so good, Leonardo Dicaprio, Tom Hardy, Cillian Murphy, I mean come on.", "I can never tell if the ending was real or not it's so great.", "I love the world building, Christopher"],
+	    "negative": ["How could you not like it? It's a masterpiece!", "I figured you wouldn't understand it, it is a bit compelx.", "I wish this conversation were a dream, then it would be more fun."]
 	},
         "Pulp fiction" : {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["Tarantino really did make a masterpiece", "It's brilliant, nothing really comes close to how perfect it is, even with the odd pacing and everything. It all just adds to it.", "Samuel L. Jackson is my favorie he was just cast so perfect."],
+	    "negative": ["I bet you think Marvel movies are the best thing ever, huh", "It's the best movie since the 80s, if you don't agree you're just wrong.", "English Motherfucker, do you speak it?!?!"]
 	},
         "The Godfather": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
-	},
-        "The Shawshank Redepmtion": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["I watch it every week at least, I mean how could I not?", "Marlon Brando and Al Pacino did such an amazing job on this one, nothing even compares", "It's just perfect, not much else to say tbh"],
+	    "negative": ["one", "two", "Look, how you massacred my boy! I bet you didn't even watch it."]
 	},
         "American Psycho": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["Patrick Bateman is an icon, honestly a sigma if you ask me.", "Did you know that Christian Bale based his performance off the time he met Tom Cruise?", "It's such a classic, I can really identify with the main character at times."],
+	    "negative": ["It's not a satire, it's a metaphor, if you had actually seen it you would get it.", "The character and story is pretty complex, I get if you don't understand the movie becuase of it. Just say so", "Why isn't it possible? WHY NOT YOU STUPID BASTARD?!"]
 	},
         "Star Wars": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["The original trilogy is my favorite, but the prequels are a close second.", "Obi-Wan is the best, Ewan Mcgregor just made his character even better.", "May the force be with you, the Jedi are just so cool."],
+	    "negative": ["The prequels were jsut before their time, only a few lines are bad. You're just a hater.", "The sequels are trash frfr, don't even talk about those.", "You just have to watch the Clone Wars, if you actually understood the story you wouldn't say that."]
 	},
         "Lord of the Rings": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["one", "When the orc throws a dagger at Aragorn", "Did you know, in the two towers, when Aragorn kicks the helmet, Vigo Mortenson actually kicked a metal helmet and broke his toes his scream was just real pain!"],
+	    "negative": ["If you don't like it then you're just wrong, I mean, its the best novel adaptation in history", "Also, the extended editions aren't even that long, your attention span is just too short, not my fault you can't pay attention for the entire thing.", "Nasty little hobbit."]
 	},
         "Gladiator": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["Russel Crowe, really out did himself there, such a compelling character backed by an amazing performance.", "Joaquin Phoenix's portrayal of Commodus was so goos, just the worst kind of bad guy who you love to hate.", "Just so ahead of it's time, the CGI mixed with practical effects just flows too well."],
+	    "negative": ["I mean, it's ok if you didn't like it or even watch it, but that doesn't make you right.", "two", "Ugh, go watch a Minions or something then"]
 	},
         "Saving Private Ryan": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["Did you know the portrayal of the war was so accurate that veterans had to leave?", "Did you know Vin Diesel is in it? He's one of the guys on the squad and he gets shot by that sniper in the tower.", "If you're a movie buff it's a must watch. I've seen it so many times and it's always good."],
+	    "negative": ["You just don't appreciate the art of it.", "It literally set the tone for future war movies, it's objectively amazing, you can't even try to deny that.", "I mean, at the very least, Tom Hanks is in it, so I hope you can at least appreciate that."]
 	},
         "Indiana Jones": {
-	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "positive": ["Just another masterful creation by George Lucas and backed by John Williams amazing scoring.", "Raders of the Lost Ark is just so great it blows the other ones out of the water.", "Did you know Harrison Ford preferred to play Indiana Jones to Han Solo?"],
+	    "negative": ["The new ones do lack a bit of the original flavor, but you can't say that the first one was even close to bad.", "It's ok if you're uncultured just let me know.", "Did you evenhave a childhood?"]
 	},
         "Rocky": {
 	    "positive": ["one", "two", "three"],
-	    "negative": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"]
 	},
-        "Jaws" : ["one", "two", "three"],
-        "The Good, the Bad and the Ugly" : ["one", "two", "three"],
-        "Braveheart" : ["one", "two", "three"],
-        "Jurassic Park" : ["one", "two", "three"],
-        "A Clockwork Orange" : ["one", "two", "three"],
-        "Goodfellas" : ["one", "two", "three"],
-        "Good Will Hunting" : ["one", "two", "three"],
-        "The Dark Knight" : ["one", "two", "three"],
-        "Blood Diamond" : ["one", "two", "three"],
-        "No Country for Old Men" : ["one", "two", "three"],
-        "Cinderella Man" : ["one", "two", "three"],
-        "V for Vendetta" : ["one", "two", "three"],
-        "Titanic" : ["one", "two", "three"],
-        "300" : ["one", "two", "three"],
-        "Troy" : ["one", "two", "three"],
-        "Up" : ["one", "two", "three"],
-        "Inglorious Bastards" : ["one", "two", "three"],
-        "The Hurt Locker" : ["one", "two", "three"],
-        "Kill Bill" : ["one", "two", "three"],
-        "The Last Samurai" : ["one", "two", "three"],
-        "Black Hawk Down" : ["one", "two", "three"],
-        "Zombieland" : ["one", "two", "three"],
-        "The Bourne Identity" : ["one", "two", "three"],
-        "James Bond" : ["one", "two", "three"],
-        "Avatar" : ["one", "two", "three"],
-        "Catch Me if You Can" : ["one", "two", "three"],
-        "The Avengers" : ["one", "two", "three"],
-        "Iron Man" : ["one", "two", "three"]
-    }
+      "Jaws": {
+        "positive": ["I mean, not much beats a giant shark monster movie, but this is the OG", "An oldie but a goodie, actually it got me into the movie scene.", "We're gonna need a bigger boat."],
+  	    "negative": ["Ugh ", "Just because it's old and the effects aren't good doesn't take away from it. You're just spoiled by CGI I bet.", "Literally a classic, you're just trying to be quirky and different, huh?"]
+  },
+        "The Good, the Bad and the Ugly" :{
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Braveheart" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Jurassic Park" : {
+          "positive": ["one", "two", "three"],
+  	      "negative": ["one", "two", "three"]
+  },
+        "A Clockwork Orange" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Goodfellas" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Good Will Hunting" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "The Dark Knight" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Blood Diamond" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "No Country for Old Men" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Cinderella Man" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "V for Vendetta" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Titanic" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "300" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Troy" : {
+          "positive": ["one", "two", "three"],
+    	    "negative": ["one", "two", "three"]
+  },
+        "Up" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Inglorious Bastards" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "The Hurt Locker" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Kill Bill" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "The Last Samurai" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Black Hawk Down" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Zombieland" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "The Bourne Identity" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "James Bond" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Avatar" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Catch Me if You Can" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "The Avengers" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+        "Iron Man" : {
+          "positive": ["one", "two", "three"],
+          "negative": ["one", "two", "three"]
+  },
+     },
     "input":{
         "UH":{
 	    	"SWEET": [ "Don't be a drag. Just be a queen."],
