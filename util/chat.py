@@ -85,7 +85,7 @@ class chat(actor):
             return msg
         elif "movies" == self.convo_state:
             # We've initiated talking about our movie, steamroll the conversation
-            msg = random.choice
+            msg = self.reference_movie(tokenized_input)
 
             # Respond to user asking about ~any movie
             # for movie in CORPUS:
