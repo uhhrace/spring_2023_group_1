@@ -16,15 +16,56 @@ def get_movie_title(movie_index):
         movies_info = json.loads(movie_list.read())
 
         return movies_info[movie_index].get('title')
+    
+# def progress_chat_stage():
+
+# def talk_about_movie_logic():
+
+
+def maximum_context_switch_and_problem_space_reduction_algorithm(input):
+    msg_vibe = sia.polarity_scores(input)
+    if msg_vibe['neu'] > .3:
+        output = "Cool. Btw, I just watched " + random.choice(CORPUS["movie_titles"]) + ", have you seen it? Soooo good."
+    # Redirect a particularly negative message
+    if msg_vibe['neg'] > .8:
+        output = "Wow. Anyways, have you seen " + random.choice(CORPUS["movie_titles"]) + "? That always cheers me up."
+    # Redirect a particularly positive message
+    if msg_vibe['pos'] > .6:
+        output = "Woah, that's awesome! Reminds me of " + random.choice(CORPUS["movie_titles"]) + ". Badass flick."
+    return output
 
 class chat(actor):
     def __init__(self, phone_number):
         super().__init__(phone_number)
         self.score = 0
-
+        self.convo_state = "init"
         self.salty_scale =  "MEDIUM"
 
     def get_output(self,msg_input):
+        # still in greeting phase, exchange pleasantries
+        print("Convo state:" + self.convo_state)
+        # Convert to lowercase, tokenize
+        tokenized_input = nltk.word_tokenize(msg_input.lower())
+        print(tokenized_input)
+        if "init" == self.convo_state:
+            for greeting_phrase in CORPUS["input_greetings"]:
+                if greeting_phrase in tokenized_input:
+                    msg = random.choice(CORPUS["output_greetings"])
+                    # We've got our greeting, return it
+                    return msg
+            # If we get this far, user has started a topic, be an ass and redirect to our own interest
+            msg = maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
+            # We have progressed the state of the conversation, and forced them to talk about movies
+            self.convo_state = "movies"
+            return msg
+        # else if "movies" == self.convo_state
+            # TODO Jarrett 
+            # for movie in movieJSON:
+                #     if movie in nltk.word_tokenize(msg_input):
+                #         talk_about_movie_logic(movie)
+        #Default
+        # else
+
         sent = sia.polarity_scores(msg_input)
 
         if sent['neu'] > .3:
@@ -34,20 +75,16 @@ class chat(actor):
         if sent['pos'] > .6:
             self.salty_scale =  "SWEET"
 
+        # Tag parts of speech from user message
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
 
         msg = None
-        for i in range( len(CORPUS[ "misc corpus" ]) ):
-            msg = random.choice( CORPUS[ "misc corpus" ] )
+        for i in range( len(CORPUS[ "misc" ]) ):
+            msg = random.choice( CORPUS[ "misc" ] )
             if msg not in self.prev_msgs:
                 break
 
         if msg == None:
-            return [ random.choice( CORPUS[ "misc corpus" ] ) ]
+            return [ random.choice( CORPUS[ "misc" ] ) ]
         else:
             return [ msg ]
-
-
-
-
-
