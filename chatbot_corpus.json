@@ -129,17 +129,50 @@
     	]
     },
     "reference_movie":{
-        "Inception" : ["one", "two", "three"],
-        "Pulp fiction" : ["one", "two", "three"],
-        "The Godfather" : ["one", "two", "three"],
-        "The Shawshank Redepmtion" : ["one", "two", "three"],
-        "American Psycho" : ["one", "two", "three"],
-        "Star Wars" : ["one", "two", "three"],
-        "Lord of the Rings" : ["one", "two", "three"],
-        "Gladiator" : ["one", "two", "three"],
-        "Saving Private Ryan" : ["one", "two", "three"],
-        "Indiana Jones" : ["one", "two", "three"],
-        "Rocky" : ["one", "two", "three"],
+        "Inception" : {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Pulp fiction" : {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "The Godfather": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "The Shawshank Redepmtion": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "American Psycho": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Star Wars": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Lord of the Rings": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Gladiator": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Saving Private Ryan": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Indiana Jones": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
+        "Rocky": {
+	    "positive": ["one", "two", "three"],
+	    "negative": ["one", "two", "three"],
+	},
         "Jaws" : ["one", "two", "three"],
         "The Good, the Bad and the Ugly" : ["one", "two", "three"],
         "Braveheart" : ["one", "two", "three"],
