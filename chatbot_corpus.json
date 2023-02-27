@@ -43,7 +43,45 @@
     ],
     "movie_titles":[
         "Inception",
-        "Pulp fiction"
+        "Pulp fiction",
+        "The Godfather",
+        "The Shawshank Redepmtion",
+        "American Psycho",
+        "Star Wars",
+        "Lord of the Rings",
+        "Gladiator",
+        "Saving Private Ryan",
+        "Indiana Jones",
+        "Rocky",
+        "Jaws",
+        "The Good, the Bad and the Ugly",
+        "Braveheart",
+        "Jurassic Park",
+        "A Clockwork Orange",
+        "Goodfellas",
+        "Good Will Hunting",
+        "The Dark Knight",
+        "Blood Diamond",
+        "No Country for Old Men",
+        "Cinderella Man",
+        "V for Vendetta",
+        "Titanic",
+        "300",
+        "Troy",
+        "Up",
+        "Inglorious Bastards",
+        "The Hurt Locker",
+        "Killl Bill",
+        "The Last Samurai",
+        "Black Hawk Down",
+        "Zombieland",
+        "The Bourne Identity",
+        "James Bond",
+        "Avatar",
+        "Catch Me if You Can",
+        "The Avengers",
+        "Iron Man"
+
     ],
     "starters" : {
 	    "SWEET" : [
@@ -69,7 +107,7 @@
 	    	"SWEET": [ "Don't be a drag. Just be a queen."],
 		    "MEDIUM": ["If you wanna do like memorable drag next week I can give you some tips."],
 		    "SALTY" : ["English motherfucker, do you speak it?!"]
-            
+
         },
 	    "NN":{
 	    },
