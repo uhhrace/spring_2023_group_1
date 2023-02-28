@@ -36,7 +36,7 @@ class chat(actor):
     
     def reference_movie(self, tokenized_input):
         msg_vibe = sia.polarity_scores(tokenized_input)
-        if msg_vibe['pos'] > .6:
+        if msg_vibe['pos'] > .4:
             msg_vibe = "positive"
         # If they weren't enthusiastic, they hated it, and they hate you.
         else:
@@ -55,6 +55,7 @@ class chat(actor):
         for line in movie[msg_vibe]:
             print(line)
             
+        
         msg = random.choice(movie[msg_vibe])
         # msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
         return msg

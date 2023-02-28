@@ -31,8 +31,10 @@ def handle_request():
 
     act = fetch_history(request.form['From'])
 
-    act.save_msg(request.form['Body'])
     output = act.get_output(request.form['Body'])
+    
+    act.save_msg(request.form['Body'])
+    act.save_msg(output)
 
     for o_msg in output:
          message = g.sms_client.messages.create(
