@@ -34,6 +34,12 @@ class chat(actor):
     def recall_movie(self):
         return self.current_movie
     
+    def redirect_to_new_movie(self):
+        msg = "Have you seen " + self.get_random_movie() + "?"
+        # "What about xyz?"
+        # "Oh, abc was great, did you see that?"
+        return msg
+
     def reference_movie(self, tokenized_input):
         msg_vibe = sia.polarity_scores(tokenized_input)
         if msg_vibe['pos'] > .6:
@@ -43,15 +49,21 @@ class chat(actor):
             msg_vibe = "negative"
         
         movie_title = self.recall_movie()
-
-        # Accessing JSON object properties in Python is fun!
         
         # Accessing JSON object properties in Python is fun!
         movies = CORPUS["reference_movie"]
         movie = movies[movie_title]
         msg = random.choice(movie[msg_vibe])
-        # msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
-        return msg
+
+        for i in range( len(movie[msg_vibe]) ):
+            msg = movie[msg_vibe][i]
+            if msg not in self.prev_msgs:
+                break
+
+        if msg == None:
+            return [ self.redirect_to_new_movie() ]
+        else:
+            return msg
     
     def get_random_movie(self):
         return random.choice(CORPUS["movie_titles"])
