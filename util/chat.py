@@ -47,7 +47,12 @@ class chat(actor):
         movie_title = self.recall_movie()
 
         # Accessing JSON object properties in Python is fun!
-        msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
+        
+        # Accessing JSON object properties in Python is fun!
+        movies = CORPUS["reference_movie"]
+        movie = movies[movie_title]
+        msg = random.choice(movie[msg_vibe])
+        # msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
         return msg
     
     def maximum_context_switch_and_problem_space_reduction_algorithm(self, input):
@@ -73,6 +78,17 @@ class chat(actor):
         msg_input = msg_input.lower()
         # tokenized_input = nltk.word_tokenize(msg_input.lower())
         # print(tokenized_input)
+
+        # Ears perk up
+        for trigger in CORPUS["movie_triggers"]:
+            if trigger in msg_input:
+                if "init" == self.convo_state:
+                    msg = self.maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
+                    self.convo_state = "movies"
+                    return msg
+                else:
+                    self.convo_state = "movies"
+
         if "init" == self.convo_state:
             for greeting_phrase in CORPUS["input_greetings"]:
                 if greeting_phrase in msg_input:
@@ -87,6 +103,7 @@ class chat(actor):
         elif "movies" == self.convo_state:
             # We've initiated talking about our movie, steamroll the conversation
             msg = self.reference_movie(msg_input)
+            return msg
 
             # Respond to user asking about ~any movie
             # for movie in CORPUS:
