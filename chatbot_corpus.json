@@ -35,9 +35,10 @@
         "hows it goin",
         "to see you",
         "yo",
-        "sup",
         "what's up",
         "whats up",
+        "sup",
+        "suh dude",
         "ahoy",
         "howdy"
     ],
@@ -62,8 +63,9 @@
         "How's it going?",
         "Nice to see you",
         "yo",
-        "sup",
         "What's up?",
+        "sup",
+        "suh dude",
         "Ahoy",
         "Howdy"
     ],
@@ -80,25 +82,16 @@
         "Rocky",
         "Jaws",
         "The Good, the Bad and the Ugly",
-        "Braveheart",
         "Jurassic Park",
         "A Clockwork Orange",
-        "Goodfellas",
         "Good Will Hunting",
         "The Dark Knight",
-        "Blood Diamond",
-        "No Country for Old Men",
         "Cinderella Man",
-        "V for Vendetta",
         "Titanic",
         "300",
         "Troy",
         "Up",
         "Inglorious Bastards",
-        "The Hurt Locker",
-        "Kill Bill",
-        "The Last Samurai",
-        "Black Hawk Down",
         "Zombieland",
         "The Bourne Identity",
         "James Bond",
@@ -126,6 +119,10 @@
             "Hasta la vista, baby.",
             "I'm as mad as hell, and I'm not going to take this anymore!"
     	]
+    },
+    "movie_transitions":{
+      "positive" : ["If you liked that one you might like, ", "A good next one to watch is, ", "How about, ", "What about, ", "You have to have seen, "],
+      "negative": ["Have you at least seen, ", "Since you haven't seen a lot of good movies, you could watch, ", "You do need suggestions so watch, ","Maybe you'll improve your taste if you watch, "]
     },
     "reference_movie":{
         "Inception" : {
@@ -165,90 +162,64 @@
 	        "negative": ["The new ones do lack a bit of the original flavor, but you can't say that the first one was even close to bad.", "It's ok if you're uncultured just let me know.", "Did you evenhave a childhood?"]
 	},
         "Rocky": {
+<<<<<<< Updated upstream
 	        "positive": ["one", "two", "three"],
 	        "negative": ["one", "two", "three"]
+=======
+<<<<<<< HEAD
+	    "positive": ["Did you know Silvester Stalone wrote Rocky so that he could get into Hollywood?", "Such a classic, did you know they removed the Rocky stairs in Philly? It's kinda sad tbh", "The first one is definitely the best but I do like number two as well."],
+	    "negative": ["You're just a hater, tryna be different huh?", "It's not just a boxing movie, its the underdog story, come on", "It's so inspirational, you just don't get good cinema"]
+=======
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+>>>>>>> 14c0917b931a70fdd199486336564bfba3c56df8
+>>>>>>> Stashed changes
 	},
         "Jaws": {
           "positive": ["I mean, not much beats a giant shark monster movie, but this is the OG", "An oldie but a goodie, actually it got me into the movie scene.", "We're gonna need a bigger boat."],
   	      "negative": ["Ugh ", "Just because it's old and the effects aren't good doesn't take away from it. You're just spoiled by CGI I bet.", "Literally a classic, you're just trying to be quirky and different, huh?"]
   },
         "The Good, the Bad and the Ugly" :{
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
-  },
-        "Braveheart" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["CLint Eastwood didn't want to do the film originally, but now it's like his defining moment, crazy how things work.", "Did you knwo that one of the best lines, 'When you have to shoot, shoot! Don't talk!' was improvised by Eli Wallach?", "The final shootout scene was so sick, I mean actually iconic."],
+    	    "negative": ["It's alright not to like westerns, but this one has to be an exception, seriously", "And before you say it's 'boring', maybe check your attention span", "What do you even watch? Clearly nothing good."]
   },
         "Jurassic Park" : {
-          "positive": ["one", "two", "three"],
-  	      "negative": ["one", "two", "three"]
+          "positive": ["I remember watching this when I grew up, one of the first movies I watched, man it made me love movies.", "The animatronics were so ahead of their time, actually insane ingenuity. Not much can top the originl.", "You did it,you crazy son of a bitch, you did it. Gotta love Jeff Goldbloom"],
+  	      "negative": ["You're probably too young to appreciate it anyway.", "Imagine, I bet you are one of those who likes the new movies better huh.", "Go watch live action The Last Airbender or something"]
   },
         "A Clockwork Orange" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
-  },
-        "Goodfellas" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["A great film, it is definitely a message about society", "I know the main character is horrible, but he's a product of the society he's in.", "It was out of left field for sure, but that didn't stop its success"],
+    	    "negative": ["No way was it just violent for the sake of violence, anyone who even says that clearly missed something", "I know it' creepy and offensive, but society is that way sometimes too", "It's ok if people were scared a bit while watching it was the point of the movie."]
   },
         "Good Will Hunting" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["Did you know Matt Damon and Ben Afflek actually wrote the movie?", "Gotta love this one, such a classic and a great start for Ben Affleck and Matt Damon", "Robin Williams was so amazing, sucha tragedy what happened, he will be remembered and missed."],
+    	    "negative": ["It's so well done, worth the watch.", "Definitely give it a watch, might change the way you look at it.", "three"]
   },
         "The Dark Knight" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
-  },
-        "Blood Diamond" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
-  },
-        "No Country for Old Men" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["Christian Bale is definitely the best Batman AND Bruce Wayne, I mean come one he's amazing", "Christopher Nolan is just so sick with it, best super hero movies ever", "Heath Ledger still has the best Joker performance ever, brilliant"],
+    	    "negative": ["Super hero movies aren't all jokes like the Marvel movies, they can be serious too", "Some of the best performances by actors in the 21st century, you need to catch up", "We live in a society, where you need to get better taste in movies."]
   },
         "Cinderella Man" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
-  },
-        "V for Vendetta" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["Another banger by Russel Crowe from Gladiator", "It's such a touching story, sad but sweet and based on a true one.", "Very inspirational movie, sad at times but loved to watch it."],
+    	    "negative": ["Ths one might not be for everyone but, it is a great film.", "Sometimes it isn't about the spectacle it's about the story", "You're really missing out"]
   },
         "Titanic" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["Just a classic what else can I say", "Young Leo does a great job on this one, sad true-ish story", "I'M THE KING OF THE WORLD!!!"],
+    	    "negative": ["How have you not seen Titanic, like hello, do you live under a rock?", "Do you even try or just watch whatever new trash is on Netflix?", "I can't believe this, I'm losing faith in the human race"]
   },
         "300" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["What could be better than oiled up men fighting in their underwear? Nothing, that is the answer you are looking for.", "Iconic film, and so well done too", "THIS IS SPARTA, so classic they named a kick after it"],
+    	    "negative": ["Just get better, I won't judge", "There is such thing as good movies, and I will show them to you", "Are you even trying, or should I just give up? That was rhetorical, don't answer..."]
   },
         "Troy" : {
-          "positive": ["one", "two", "three"],
-    	    "negative": ["one", "two", "three"]
+          "positive": ["I loved Brad Pitt's accent in this he nailed it so well", "Achilles is a sigma male, what else is there but the boys?", "Brad Pitt and Eric Bana actually did all the choreography in the final fight its nuts"],
+    	    "negative": ["You call yourself a movie fan?", "What even HAVE you watched?", "You still have time to get better taste"]
   },
         "Up" : {
-          "positive": ["one", "two", "three"],
+          "positive": ["Such a heartwarming story, I love Doug", "two", "three"],
           "negative": ["one", "two", "three"]
   },
         "Inglorious Bastards" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
-        "The Hurt Locker" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
-        "Kill Bill" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
-        "The Last Samurai" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
-        "Black Hawk Down" : {
           "positive": ["one", "two", "three"],
           "negative": ["one", "two", "three"]
   },
@@ -265,22 +236,35 @@
           "negative": ["one", "two", "three"]
   },
         "Avatar" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
+          "positive": ["James Cameron blew us out of the water with the new one, ha get it, out of the water", "The visual effects were so insane for their time, and now the second one was even crazier", "Colonel Quaritch is my favorite, what a sigma."],
+          "negative": ["Some people say it's too long, I just say that it's more to enjoy", "Just because someone is restless and can't pay attention doesn't mean you get to call it bad", "three"]
   },
         "Catch Me if You Can" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
+          "positive": ["Just another great Leonardo Dicaprio film, love the dynamic between him and Tom Hanks", "No idea how he didn't win an oscar for this one, sad really.", "It's so cool how it was based on a true story, like how could someone even do all that?"],
+          "negative": ["Not everything has to be super violent and full of explosions ya know, go watch Transformers", "It's such an engaging film, I don't know how someone could even get bored, but I guess it happens.", "I think you need to reevalute your taste in movies."]
   },
         "The Avengers" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
+          "positive": ["Captain America is my favorite Avneger, such a Chad.", "Ultron was the best villain by far, he got done dirty.", "Endgame is the best movie to have ever been created, nothing can top it like ever."],
+          "negative": ["Ew, I bet you unironically watched the Justice League movie", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
   },
         "Iron Man" : {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+          "positive": ["The beginning of a new era, the first Iron Man is the best.", "Robert Downy Jr. was the only choice for Tony Stark. Jon Favreau did such a great job casting", "Gotta love the MCU, but this movie stands above the rest."],
+          "negative": ["How can you not like ", "two", "three"]
+  },
+     },
+=======
+>>>>>>> Stashed changes
           "positive": ["one", "two", "three"],
           "negative": ["one", "two", "three"]
   }
 },
+<<<<<<< Updated upstream
+=======
+>>>>>>> 14c0917b931a70fdd199486336564bfba3c56df8
+>>>>>>> Stashed changes
     "input":{
         "UH":{
 	    	"SWEET": [ "Don't be a drag. Just be a queen."],
