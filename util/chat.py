@@ -135,6 +135,8 @@ class chat(actor):
 
         if "init" == self.convo_state:
             return self.handle_convo_init(msg_input)
+        elif "smalltalk" == self.convo_state:
+            return self.handle_convo_smalltalk(msg_input)
         elif "movies" == self.convo_state:
             # We've initiated talking about our movie, steamroll the conversation
             msg = self.reference_movie(msg_input)
