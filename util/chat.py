@@ -103,7 +103,7 @@ class chat(actor):
                 msg = "Good, what about you?"
                 return msg
         for phrase in CORPUS["input_smalltalk_b"]:
-            if phrase in msg:
+            if phrase in msg_input:
                 msg = "Not much, what have you been up to?"
                 return msg
             
@@ -114,6 +114,9 @@ class chat(actor):
             # We have progressed the state of the conversation, and forced them to talk about movies
             self.convo_state = "movies"
             return "Honestly dude, I don't even know right now. I just watched " + movie_title + "again, you seen it?"
+        else:
+            # They went way off the rails
+            return self.panic_mode()
 
     def get_output(self,msg_input):
         # still in greeting phase, exchange pleasantries
