@@ -233,7 +233,7 @@
 	        "positive": ["one", "two", "three"],
 	        "negative": ["one", "two", "three"]
 	},
-        "Up: {
+        "Up": {
 	        "positive": ["one", "two", "three"],
 	        "negative": ["one", "two", "three"]
 	},
