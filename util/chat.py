@@ -21,8 +21,6 @@ def get_movie_title(movie_index):
 
 # def talk_about_movie_logic():
 
-
-
 class chat(actor):
     def __init__(self, phone_number):
         super().__init__(phone_number)
@@ -55,9 +53,12 @@ class chat(actor):
         # msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
         return msg
     
+    def get_random_movie(self):
+        return random.choice(CORPUS["movie_titles"])
+
     def maximum_context_switch_and_problem_space_reduction_algorithm(self, input):
         msg_vibe = sia.polarity_scores(input)
-        random_movie = random.choice(CORPUS["movie_titles"])
+        random_movie = self.get_random_movie()
         if msg_vibe['neu'] > .3:
             output = "Cool. Btw, I just watched " + random_movie + ", have you seen it? Soooo good."
         # Redirect a particularly negative message
@@ -71,6 +72,49 @@ class chat(actor):
         self.memorize_movie(random_movie)
         return output
     
+    def handle_convo_init(self, msg_input):
+        for greeting_phrase in CORPUS["input_greetings"]:
+                if greeting_phrase in msg_input:
+                    msg = random.choice(CORPUS["output_greetings"])
+                    # We've got our greeting, return it
+                    self.convo_state = "smalltalk"
+                    return msg
+        # If we get this far, user has started a topic, be an ass and redirect to our own interest
+        msg = self.maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
+        # We have progressed the state of the conversation, and forced them to talk about movies
+        self.convo_state = "movies"
+        return msg
+    
+    def panic_mode(self):
+        # We've run out of things to say, spam movie lines I guess?
+        for i in range( len(CORPUS[ "misc" ]) ):
+            msg = random.choice( CORPUS[ "misc" ] )
+            if msg not in self.prev_msgs:
+                break
+
+        if msg == None:
+            return [ random.choice( CORPUS[ "misc" ] ) ]
+        else:
+            return [ msg ]
+
+    def handle_convo_smalltalk(self, msg_input):
+        for phrase in CORPUS["input_smalltalk_a"]:
+            if phrase in msg_input:
+                msg = "Good, what about you?"
+                return msg
+        for phrase in CORPUS["input_smalltalk_b"]:
+            if phrase in msg:
+                msg = "Not much, what have you been up to?"
+                return msg
+            
+        # If they said something we haven't accounted for
+        movie_title = self.get_random_movie()
+        if "who" or "what" or "when" or "where" or "why" or "how" or "?" in msg_input:
+            self.memorize_movie(movie_title)
+            # We have progressed the state of the conversation, and forced them to talk about movies
+            self.convo_state = "movies"
+            return "Honestly dude, I don't even know right now. I just watched " + movie_title + "again, you seen it?"
+
     def get_output(self,msg_input):
         # still in greeting phase, exchange pleasantries
         print("Convo state:" + self.convo_state)
@@ -90,16 +134,7 @@ class chat(actor):
                     self.convo_state = "movies"
 
         if "init" == self.convo_state:
-            for greeting_phrase in CORPUS["input_greetings"]:
-                if greeting_phrase in msg_input:
-                    msg = random.choice(CORPUS["output_greetings"])
-                    # We've got our greeting, return it
-                    return msg
-            # If we get this far, user has started a topic, be an ass and redirect to our own interest
-            msg = self.maximum_context_switch_and_problem_space_reduction_algorithm(msg_input)
-            # We have progressed the state of the conversation, and forced them to talk about movies
-            self.convo_state = "movies"
-            return msg
+            return self.handle_convo_init(msg_input)
         elif "movies" == self.convo_state:
             # We've initiated talking about our movie, steamroll the conversation
             msg = self.reference_movie(msg_input)

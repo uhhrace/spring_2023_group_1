@@ -1,15 +1,15 @@
 {
     "movie_triggers" : [
-	"film",
-	"films",
-    "cinema",
-    "cinemas",
-    "movie",
-    "movies",
-    "theater",
-    "theaters",
-    "theatre",
-    "theatres"
+        "film",
+        "films",
+        "cinema",
+        "cinemas",
+        "movie",
+        "movies",
+        "theater",
+        "theaters",
+        "theatre",
+        "theatres"
     ],
     "input_greetings":[
         "hi",
@@ -69,6 +69,22 @@
         "Ahoy",
         "Howdy"
     ],
+    "input_smalltalk_a":[
+        "how are you",
+        "how are you doing",
+        "how do you do",
+        "how have you been",
+        "how are you doing",
+        "how's it going",
+        "hows it going",
+        "how's it goin",
+        "hows it goin"
+    ],
+    "input_smalltalk_b":[
+        "sup",
+        "what's up",
+        "whats up"
+    ],
     "movie_titles":[
         "Inception",
         "Pulp fiction",
@@ -99,147 +115,178 @@
         "Catch Me if You Can",
         "The Avengers",
         "Iron Man"
-
     ],
     "starters" : {
-	    "SWEET" : [
-		    "May the Force be with you." ,
-		    "I think this is the beginning of a beautiful friendship.",
-		    "I'm king of the world!"
-	    ],
-	    "MEDIUM" : [
-		    "Nobody puts baby in a corner.",
-		    "I am trying to be nice!",
-		    "Snap out of it!!"
-		],
-	    "SALTY" : [
-		    "Say \"hello\" to my little friend!",
-		    "I don't care!",
-            "I'll get you, my pretty, and your little dog too!",
-            "Hasta la vista, baby.",
-            "I'm as mad as hell, and I'm not going to take this anymore!"
-    	]
+	      "SWEET" : [
+          "May the Force be with you." ,
+          "I think this is the beginning of a beautiful friendship.",
+          "I'm king of the world!"
+	      ],
+	      "MEDIUM" : [
+          "Nobody puts baby in a corner.",
+          "I am trying to be nice!",
+          "Snap out of it!!"
+		    ],
+	      "SALTY" : [
+          "Say \"hello\" to my little friend!",
+          "I don't care!",
+          "I'll get you, my pretty, and your little dog too!",
+          "Hasta la vista, baby.",
+          "I'm as mad as hell, and I'm not going to take this anymore!"
+    	  ]
     },
     "movie_transitions":{
-      "positive" : ["If you liked that one you might like, ", "A good next one to watch is, ", "How about, ", "What about, ", "You have to have seen, "],
-      "negative": ["Have you at least seen, ", "Since you haven't seen a lot of good movies, you could watch, ", "You do need suggestions so watch, ","Maybe you'll improve your taste if you watch, "]
+        "positive" : ["If you liked that one you might like, ", "A good next one to watch is, ", "How about, ", "What about, ", "You have to have seen, "],
+        "negative": ["Have you at least seen, ", "Since you haven't seen a lot of good movies, you could watch, ", "You do need suggestions so watch, ","Maybe you'll improve your taste if you watch, "]
     },
     "reference_movie":{
         "Inception" : {
-	        "positive": ["The cast is so good, Leonardo Dicaprio, Tom Hardy, Cillian Murphy, I mean come on.", "I can never tell if the ending was real or not it's so great.", "I love the world building, Christopher"],
-	        "negative": ["How could you not like it? It's a masterpiece!", "I figured you wouldn't understand it, it is a bit compelx.", "I wish this conversation were a dream, then it would be more fun."]
+	          "positive": ["The cast is so good, Leonardo Dicaprio, Tom Hardy, Cillian Murphy, I mean come on.", "I can never tell if the ending was real or not it's so great.", "I love the world building, Christopher"],
+	          "negative": ["How could you not like it? It's a masterpiece!", "I figured you wouldn't understand it, it is a bit compelx.", "I wish this conversation were a dream, then it would be more fun."]
 	      },
         "Pulp fiction" : {
-	        "positive": ["Tarantino really did make a masterpiece", "It's brilliant, nothing really comes close to how perfect it is, even with the odd pacing and everything. It all just adds to it.", "Samuel L. Jackson is my favorie he was just cast so perfect."],
-	        "negative": ["I bet you think Marvel movies are the best thing ever, huh", "It's the best movie since the 80s, if you don't agree you're just wrong.", "English Motherfucker, do you speak it?!?!"]
+	          "positive": ["Tarantino really did make a masterpiece", "It's brilliant, nothing really comes close to how perfect it is, even with the odd pacing and everything. It all just adds to it.", "Samuel L. Jackson is my favorie he was just cast so perfect."],
+	          "negative": ["I bet you think Marvel movies are the best thing ever, huh", "It's the best movie since the 80s, if you don't agree you're just wrong.", "English Motherfucker, do you speak it?!?!"]
 	      },
         "The Godfather": {
-	        "positive": ["I watch it every week at least, I mean how could I not?", "Marlon Brando and Al Pacino did such an amazing job on this one, nothing even compares", "It's just perfect, not much else to say tbh"],
-	        "negative": ["one", "two", "Look, how you massacred my boy! I bet you didn't even watch it."]
+  	        "positive": ["I watch it every week at least, I mean how could I not?", "Marlon Brando and Al Pacino did such an amazing job on this one, nothing even compares", "It's just perfect, not much else to say tbh"],
+	          "negative": ["one", "two", "Look, how you massacred my boy! I bet you didn't even watch it."]
 	      },
         "American Psycho": {
-	        "positive": ["Patrick Bateman is an icon, honestly a sigma if you ask me.", "Did you know that Christian Bale based his performance off the time he met Tom Cruise?", "It's such a classic, I can really identify with the main character at times."],
-	        "negative": ["It's not a satire, it's a metaphor, if you had actually seen it you would get it.", "The character and story is pretty complex, I get if you don't understand the movie becuase of it. Just say so", "Why isn't it possible? WHY NOT YOU STUPID BASTARD?!"]
+	          "positive": ["Patrick Bateman is an icon, honestly a sigma if you ask me.", "Did you know that Christian Bale based his performance off the time he met Tom Cruise?", "It's such a classic, I can really identify with the main character at times."],
+	          "negative": ["It's not a satire, it's a metaphor, if you had actually seen it you would get it.", "The character and story is pretty complex, I get if you don't understand the movie becuase of it. Just say so", "Why isn't it possible? WHY NOT YOU STUPID BASTARD?!"]
 	      },
         "Star Wars": {
-	        "positive": ["The original trilogy is my favorite, but the prequels are a close second.", "Obi-Wan is the best, Ewan Mcgregor just made his character even better.", "May the force be with you, the Jedi are just so cool."],
-	        "negative": ["The prequels were jsut before their time, only a few lines are bad. You're just a hater.", "The sequels are trash frfr, don't even talk about those.", "You just have to watch the Clone Wars, if you actually understood the story you wouldn't say that."]
-	},
+	          "positive": ["The original trilogy is my favorite, but the prequels are a close second.", "Obi-Wan is the best, Ewan Mcgregor just made his character even better.", "May the force be with you, the Jedi are just so cool."],
+	          "negative": ["The prequels were jsut before their time, only a few lines are bad. You're just a hater.", "The sequels are trash frfr, don't even talk about those.", "You just have to watch the Clone Wars, if you actually understood the story you wouldn't say that."]
+	      },
         "Lord of the Rings": {
-	        "positive": ["one", "When the orc throws a dagger at Aragorn", "Did you know, in the two towers, when Aragorn kicks the helmet, Vigo Mortenson actually kicked a metal helmet and broke his toes his scream was just real pain!"],
-	        "negative": ["If you don't like it then you're just wrong, I mean, its the best novel adaptation in history", "Also, the extended editions aren't even that long, your attention span is just too short, not my fault you can't pay attention for the entire thing.", "Nasty little hobbit."]
-	},
+  	        "positive": ["one", "When the orc throws a dagger at Aragorn", "Did you know, in the two towers, when Aragorn kicks the helmet, Vigo Mortenson actually kicked a metal helmet and broke his toes his scream was just real pain!"],
+	          "negative": ["If you don't like it then you're just wrong, I mean, its the best novel adaptation in history", "Also, the extended editions aren't even that long, your attention span is just too short, not my fault you can't pay attention for the entire thing.", "Nasty little hobbit."]
+	      },
         "Gladiator": {
-	        "positive": ["Russel Crowe, really out did himself there, such a compelling character backed by an amazing performance.", "Joaquin Phoenix's portrayal of Commodus was so goos, just the worst kind of bad guy who you love to hate.", "Just so ahead of it's time, the CGI mixed with practical effects just flows too well."],
-	        "negative": ["I mean, it's ok if you didn't like it or even watch it, but that doesn't make you right.", "two", "Ugh, go watch a Minions or something then"]
-	},
+	          "positive": ["Russel Crowe, really out did himself there, such a compelling character backed by an amazing performance.", "Joaquin Phoenix's portrayal of Commodus was so goos, just the worst kind of bad guy who you love to hate.", "Just so ahead of it's time, the CGI mixed with practical effects just flows too well."],
+	          "negative": ["I mean, it's ok if you didn't like it or even watch it, but that doesn't make you right.", "two", "Ugh, go watch a Minions or something then"]
+	      },
         "Saving Private Ryan": {
-	        "positive": ["Did you know the portrayal of the war was so accurate that veterans had to leave?", "Did you know Vin Diesel is in it? He's one of the guys on the squad and he gets shot by that sniper in the tower.", "If you're a movie buff it's a must watch. I've seen it so many times and it's always good."],
-	        "negative": ["You just don't appreciate the art of it.", "It literally set the tone for future war movies, it's objectively amazing, you can't even try to deny that.", "I mean, at the very least, Tom Hanks is in it, so I hope you can at least appreciate that."]
-	},
+	          "positive": ["Did you know the portrayal of the war was so accurate that veterans had to leave?", "Did you know Vin Diesel is in it? He's one of the guys on the squad and he gets shot by that sniper in the tower.", "If you're a movie buff it's a must watch. I've seen it so many times and it's always good."],
+	          "negative": ["You just don't appreciate the art of it.", "It literally set the tone for future war movies, it's objectively amazing, you can't even try to deny that.", "I mean, at the very least, Tom Hanks is in it, so I hope you can at least appreciate that."]
+	      },
         "Indiana Jones": {
-	        "positive": ["Just another masterful creation by George Lucas and backed by John Williams amazing scoring.", "Raders of the Lost Ark is just so great it blows the other ones out of the water.", "Did you know Harrison Ford preferred to play Indiana Jones to Han Solo?"],
-	        "negative": ["The new ones do lack a bit of the original flavor, but you can't say that the first one was even close to bad.", "It's ok if you're uncultured just let me know.", "Did you evenhave a childhood?"]
-	},
+	          "positive": ["Just another masterful creation by George Lucas and backed by John Williams amazing scoring.", "Raders of the Lost Ark is just so great it blows the other ones out of the water.", "Did you know Harrison Ford preferred to play Indiana Jones to Han Solo?"],
+	          "negative": ["The new ones do lack a bit of the original flavor, but you can't say that the first one was even close to bad.", "It's ok if you're uncultured just let me know.", "Did you evenhave a childhood?"]
+	      },
         "Rocky": {
-	    "positive": ["Did you know Silvester Stalone wrote Rocky so that he could get into Hollywood?", "Such a classic, did you know they removed the Rocky stairs in Philly? It's kinda sad tbh", "The first one is definitely the best but I do like number two as well."],
-	    "negative": ["You're just a hater, tryna be different huh?", "It's not just a boxing movie, its the underdog story, come on", "It's so inspirational, you just don't get good cinema"],
-	},
+	          "positive": ["Did you know Silvester Stalone wrote Rocky so that he could get into Hollywood?", "Such a classic, did you know they removed the Rocky stairs in Philly? It's kinda sad tbh", "The first one is definitely the best but I do like number two as well."],
+	          "negative": ["You're just a hater, tryna be different huh?", "It's not just a boxing movie, its the underdog story, come on", "It's so inspirational, you just don't get good cinema"]
+	      },
         "Jaws": {
-          "positive": ["I mean, not much beats a giant shark monster movie, but this is the OG", "An oldie but a goodie, actually it got me into the movie scene.", "We're gonna need a bigger boat."],
-  	      "negative": ["Ugh ", "Just because it's old and the effects aren't good doesn't take away from it. You're just spoiled by CGI I bet.", "Literally a classic, you're just trying to be quirky and different, huh?"]
-  },
+            "positive": ["I mean, not much beats a giant shark monster movie, but this is the OG", "An oldie but a goodie, actually it got me into the movie scene.", "We're gonna need a bigger boat."],
+  	        "negative": ["Ugh ", "Just because it's old and the effects aren't good doesn't take away from it. You're just spoiled by CGI I bet.", "Literally a classic, you're just trying to be quirky and different, huh?"]
+        },
         "The Good, the Bad and the Ugly" :{
-          "positive": ["CLint Eastwood didn't want to do the film originally, but now it's like his defining moment, crazy how things work.", "Did you knwo that one of the best lines, 'When you have to shoot, shoot! Don't talk!' was improvised by Eli Wallach?", "The final shootout scene was so sick, I mean actually iconic."],
-    	    "negative": ["It's alright not to like westerns, but this one has to be an exception, seriously", "And before you say it's 'boring', maybe check your attention span", "What do you even watch? Clearly nothing good."]
-  },
+            "positive": ["CLint Eastwood didn't want to do the film originally, but now it's like his defining moment, crazy how things work.", "Did you knwo that one of the best lines, 'When you have to shoot, shoot! Don't talk!' was improvised by Eli Wallach?", "The final shootout scene was so sick, I mean actually iconic."],
+      	    "negative": ["It's alright not to like westerns, but this one has to be an exception, seriously", "And before you say it's 'boring', maybe check your attention span", "What do you even watch? Clearly nothing good."]
+        },
         "Jurassic Park" : {
-          "positive": ["I remember watching this when I grew up, one of the first movies I watched, man it made me love movies.", "The animatronics were so ahead of their time, actually insane ingenuity. Not much can top the originl.", "You did it,you crazy son of a bitch, you did it. Gotta love Jeff Goldbloom"],
-  	      "negative": ["You're probably too young to appreciate it anyway.", "Imagine, I bet you are one of those who likes the new movies better huh.", "Go watch live action The Last Airbender or something"]
-  },
+            "positive": ["I remember watching this when I grew up, one of the first movies I watched, man it made me love movies.", "The animatronics were so ahead of their time, actually insane ingenuity. Not much can top the originl.", "You did it,you crazy son of a bitch, you did it. Gotta love Jeff Goldbloom"],
+  	        "negative": ["You're probably too young to appreciate it anyway.", "Imagine, I bet you are one of those who likes the new movies better huh.", "Go watch live action The Last Airbender or something"]
+        },
         "A Clockwork Orange" : {
-          "positive": ["A great film, it is definitely a message about society", "I know the main character is horrible, but he's a product of the society he's in.", "It was out of left field for sure, but that didn't stop its success"],
-    	    "negative": ["No way was it just violent for the sake of violence, anyone who even says that clearly missed something", "I know it' creepy and offensive, but society is that way sometimes too", "It's ok if people were scared a bit while watching it was the point of the movie."]
-  },
+            "positive": ["A great film, it is definitely a message about society", "I know the main character is horrible, but he's a product of the society he's in.", "It was out of left field for sure, but that didn't stop its success"],
+    	      "negative": ["No way was it just violent for the sake of violence, anyone who even says that clearly missed something", "I know it' creepy and offensive, but society is that way sometimes too", "It's ok if people were scared a bit while watching it was the point of the movie."]
+        },
         "Good Will Hunting" : {
-          "positive": ["Did you know Matt Damon and Ben Afflek actually wrote the movie?", "Gotta love this one, such a classic and a great start for Ben Affleck and Matt Damon", "Robin Williams was so amazing, sucha tragedy what happened, he will be remembered and missed."],
-    	    "negative": ["It's so well done, worth the watch.", "Definitely give it a watch, might change the way you look at it.", "three"]
-  },
+            "positive": ["Did you know Matt Damon and Ben Afflek actually wrote the movie?", "Gotta love this one, such a classic and a great start for Ben Affleck and Matt Damon", "Robin Williams was so amazing, sucha tragedy what happened, he will be remembered and missed."],
+    	      "negative": ["It's so well done, worth the watch.", "Definitely give it a watch, might change the way you look at it.", "three"]
+        },
         "The Dark Knight" : {
-          "positive": ["Christian Bale is definitely the best Batman AND Bruce Wayne, I mean come one he's amazing", "Christopher Nolan is just so sick with it, best super hero movies ever", "Heath Ledger still has the best Joker performance ever, brilliant"],
-    	    "negative": ["Super hero movies aren't all jokes like the Marvel movies, they can be serious too", "Some of the best performances by actors in the 21st century, you need to catch up", "We live in a society, where you need to get better taste in movies."]
-  },
+            "positive": ["Christian Bale is definitely the best Batman AND Bruce Wayne, I mean come one he's amazing", "Christopher Nolan is just so sick with it, best super hero movies ever", "Heath Ledger still has the best Joker performance ever, brilliant"],
+    	      "negative": ["Super hero movies aren't all jokes like the Marvel movies, they can be serious too", "Some of the best performances by actors in the 21st century, you need to catch up", "We live in a society, where you need to get better taste in movies."]
+        },
         "Cinderella Man" : {
-          "positive": ["Another banger by Russel Crowe from Gladiator", "It's such a touching story, sad but sweet and based on a true one.", "Very inspirational movie, sad at times but loved to watch it."],
-    	    "negative": ["Ths one might not be for everyone but, it is a great film.", "Sometimes it isn't about the spectacle it's about the story", "You're really missing out"]
-  },
+            "positive": ["Another banger by Russel Crowe from Gladiator", "It's such a touching story, sad but sweet and based on a true one.", "Very inspirational movie, sad at times but loved to watch it."],
+    	      "negative": ["Ths one might not be for everyone but, it is a great film.", "Sometimes it isn't about the spectacle it's about the story", "You're really missing out"]
+        },
         "Titanic" : {
-          "positive": ["Just a classic what else can I say", "Young Leo does a great job on this one, sad true-ish story", "I'M THE KING OF THE WORLD!!!"],
-    	    "negative": ["How have you not seen Titanic, like hello, do you live under a rock?", "Do you even try or just watch whatever new trash is on Netflix?", "I can't believe this, I'm losing faith in the human race"]
-  },
+            "positive": ["Just a classic what else can I say", "Young Leo does a great job on this one, sad true-ish story", "I'M THE KING OF THE WORLD!!!"],
+    	      "negative": ["How have you not seen Titanic, like hello, do you live under a rock?", "Do you even try or just watch whatever new trash is on Netflix?", "I can't believe this, I'm losing faith in the human race"]
+        },
         "300" : {
-          "positive": ["What could be better than oiled up men fighting in their underwear? Nothing, that is the answer you are looking for.", "Iconic film, and so well done too", "THIS IS SPARTA, so classic they named a kick after it"],
-    	    "negative": ["Just get better, I won't judge", "There is such thing as good movies, and I will show them to you", "Are you even trying, or should I just give up? That was rhetorical, don't answer..."]
-  },
+            "positive": ["What could be better than oiled up men fighting in their underwear? Nothing, that is the answer you are looking for.", "Iconic film, and so well done too", "THIS IS SPARTA, so classic they named a kick after it"],
+      	    "negative": ["Just get better, I won't judge", "There is such thing as good movies, and I will show them to you", "Are you even trying, or should I just give up? That was rhetorical, don't answer..."]
+        },
         "Troy" : {
-          "positive": ["I loved Brad Pitt's accent in this he nailed it so well", "Achilles is a sigma male, what else is there but the boys?", "Brad Pitt and Eric Bana actually did all the choreography in the final fight its nuts"],
-    	    "negative": ["You call yourself a movie fan?", "What even HAVE you watched?", "You still have time to get better taste"]
-  },
+            "positive": ["I loved Brad Pitt's accent in this he nailed it so well", "Achilles is a sigma male, what else is there but the boys?", "Brad Pitt and Eric Bana actually did all the choreography in the final fight its nuts"],
+      	    "negative": ["You call yourself a movie fan?", "What even HAVE you watched?", "You still have time to get better taste"]
+        },
         "Up" : {
-          "positive": ["Such a heartwarming story, I love Doug", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
+            "positive": ["Such a heartwarming story, I love Doug", "two", "three"],
+            "negative": ["one", "two", "three"]
+        },
         "Inglorious Bastards" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
+            "positive": ["one", "two", "three"],
+            "negative": ["one", "two", "three"]
+        },
         "Zombieland" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
+            "positive": ["one", "two", "three"],
+            "negative": ["one", "two", "three"]
+        },
         "The Bourne Identity" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
+            "positive": ["one", "two", "three"],
+            "negative": ["one", "two", "three"]
+        },
         "James Bond" : {
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  },
+            "positive": ["one", "two", "three"],
+            "negative": ["one", "two", "three"]
+        },
         "Avatar" : {
-          "positive": ["James Cameron blew us out of the water with the new one, ha get it, out of the water", "The visual effects were so insane for their time, and now the second one was even crazier", "Colonel Quaritch is my favorite, what a sigma."],
-          "negative": ["Some people say it's too long, I just say that it's more to enjoy", "Just because someone is restless and can't pay attention doesn't mean you get to call it bad", "three"]
-  },
+            "positive": ["James Cameron blew us out of the water with the new one, ha get it, out of the water", "The visual effects were so insane for their time, and now the second one was even crazier", "Colonel Quaritch is my favorite, what a sigma."],
+            "negative": ["Some people say it's too long, I just say that it's more to enjoy", "Just because someone is restless and can't pay attention doesn't mean you get to call it bad", "three"]
+        },
         "Catch Me if You Can" : {
-          "positive": ["Just another great Leonardo Dicaprio film, love the dynamic between him and Tom Hanks", "No idea how he didn't win an oscar for this one, sad really.", "It's so cool how it was based on a true story, like how could someone even do all that?"],
-          "negative": ["Not everything has to be super violent and full of explosions ya know, go watch Transformers", "It's such an engaging film, I don't know how someone could even get bored, but I guess it happens.", "I think you need to reevalute your taste in movies."]
-  },
+            "positive": ["Just another great Leonardo Dicaprio film, love the dynamic between him and Tom Hanks", "No idea how he didn't win an oscar for this one, sad really.", "It's so cool how it was based on a true story, like how could someone even do all that?"],
+            "negative": ["Not everything has to be super violent and full of explosions ya know, go watch Transformers", "It's such an engaging film, I don't know how someone could even get bored, but I guess it happens.", "I think you need to reevalute your taste in movies."]
+        },
         "The Avengers" : {
-          "positive": ["Captain America is my favorite Avneger, such a Chad.", "Ultron was the best villain by far, he got done dirty.", "Endgame is the best movie to have ever been created, nothing can top it like ever."],
-          "negative": ["Ew, I bet you unironically watched the Justice League movie", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
-  },
+            "positive": ["Captain America is my favorite Avneger, such a Chad.", "Ultron was the best villain by far, he got done dirty.", "Endgame is the best movie to have ever been created, nothing can top it like ever."],
+            "negative": ["Ew, I bet you unironically watched the Justice League movie", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
+        },
         "Iron Man" : {
-          "positive": ["The beginning of a new era, the first Iron Man is the best.", "Robert Downy Jr. was the only choice for Tony Stark. Jon Favreau did such a great job casting", "Gotta love the MCU, but this movie stands above the rest."],
-          "negative": ["How can you not like ", "two", "three"]
-  },
-     },
+            "positive": ["The beginning of a new era, the first Iron Man is the best.", "Robert Downy Jr. was the only choice for Tony Stark. Jon Favreau did such a great job casting", "Gotta love the MCU, but this movie stands above the rest."],
+            "negative": ["How can you not like ", "two", "three"]
+        }
+    },
+    "input":{
+        "UH":{
+	    	  "SWEET": [ "Don't be a drag. Just be a queen."],
+		      "MEDIUM": ["If you wanna do like memorable drag next week I can give you some tips."],
+		      "SALTY" : ["English motherfucker, do you speak it?!"]
+        },
+	    "NN":{
+	    },
+	    "JJ VBG": {
+                "SWEET": ["Oh my god, that reminds me of my favorite movie Inception."],
+                "MEDIUM": ["You can't handle the truth!"],
+                "SALTY" : ["Frankly, my dear, I don't give a damn."]
+        }
+    },
+    "misc" :[
+        "I'm gonna make him an offer he can't refuse.",
+        "Toto, I have a feeling we're not in Kansas anymore.",
+        "Go ahead, make my day.",
+        "What we've got here is failure to communicate.",
+        "I love the smell of napalm in the morning.",
+        "E.T. phone home.",
+        "There's no place like home.",
+        "You're gonna need a bigger boat.",
+        "Mama always said life was like a box of chocolates. You never know what you're gonna get.",
+        "Open the pod bay doors, HAL.",
+        "I'm not going to panic because I don't do that anymore. It's going to be okay.",
+        "You may not get the role you auditioned for, but make a lasting impression and they'll remember you for something else later.",
+        "Success is something between you and yourself. I think only you know where you've come from and how far you wanna go.",
+        "Don't get bitter, just get better.",
+        "I kind of have this mentality that says, 'everything will work out in the end. And if it's not working out, it's not the end.'",
+        "Your tone seems very pointed right now."
+    ]
 }
