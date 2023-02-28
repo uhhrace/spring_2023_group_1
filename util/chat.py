@@ -44,11 +44,14 @@ class chat(actor):
         
         movie_title = self.recall_movie()
 
+        print("Current movie topic: " + movie_title)
+        print("Message vibe: " + msg_vibe)
         # Accessing JSON object properties in Python is fun!
         
         # Accessing JSON object properties in Python is fun!
         movies = CORPUS["reference_movie"]
         movie = movies[movie_title]
+        print("Possible lines: " + movie[msg_vibe])
         msg = random.choice(movie[msg_vibe])
         # msg = random.choice(CORPUS["reference_movie"][movie_title][msg_vibe])
         return msg
