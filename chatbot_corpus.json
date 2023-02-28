@@ -16,19 +16,19 @@
         "hello",
         "hey",
         "hiya",
-        "how are you",
-        "how are you doing",
-        "how do you do",
+        "how are you?",
+        "how are you doing?",
+        "how do you do?",
         "nice to meet you",
         "pleased to meet you",
-        "how have you been",
+        "how have you been?",
         "good morning",
         "morning",
         "good afternoon",
         "afternoon",
         "good evening",
         "evening",
-        "how are you doing",
+        "how are you doing?",
         "how's it going",
         "hows it going",
         "how's it goin",
@@ -162,18 +162,8 @@
 	        "negative": ["The new ones do lack a bit of the original flavor, but you can't say that the first one was even close to bad.", "It's ok if you're uncultured just let me know.", "Did you evenhave a childhood?"]
 	},
         "Rocky": {
-<<<<<<< Updated upstream
-	        "positive": ["one", "two", "three"],
-	        "negative": ["one", "two", "three"]
-=======
-<<<<<<< HEAD
 	    "positive": ["Did you know Silvester Stalone wrote Rocky so that he could get into Hollywood?", "Such a classic, did you know they removed the Rocky stairs in Philly? It's kinda sad tbh", "The first one is definitely the best but I do like number two as well."],
-	    "negative": ["You're just a hater, tryna be different huh?", "It's not just a boxing movie, its the underdog story, come on", "It's so inspirational, you just don't get good cinema"]
-=======
-	        "positive": ["one", "two", "three"],
-	        "negative": ["one", "two", "three"]
->>>>>>> 14c0917b931a70fdd199486336564bfba3c56df8
->>>>>>> Stashed changes
+	    "negative": ["You're just a hater, tryna be different huh?", "It's not just a boxing movie, its the underdog story, come on", "It's so inspirational, you just don't get good cinema"],
 	},
         "Jaws": {
           "positive": ["I mean, not much beats a giant shark monster movie, but this is the OG", "An oldie but a goodie, actually it got me into the movie scene.", "We're gonna need a bigger boat."],
@@ -248,23 +238,11 @@
           "negative": ["Ew, I bet you unironically watched the Justice League movie", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
   },
         "Iron Man" : {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
           "positive": ["The beginning of a new era, the first Iron Man is the best.", "Robert Downy Jr. was the only choice for Tony Stark. Jon Favreau did such a great job casting", "Gotta love the MCU, but this movie stands above the rest."],
           "negative": ["How can you not like ", "two", "three"]
   },
      },
-=======
->>>>>>> Stashed changes
-          "positive": ["one", "two", "three"],
-          "negative": ["one", "two", "three"]
-  }
 },
-<<<<<<< Updated upstream
-=======
->>>>>>> 14c0917b931a70fdd199486336564bfba3c56df8
->>>>>>> Stashed changes
     "input":{
         "UH":{
 	    	"SWEET": [ "Don't be a drag. Just be a queen."],
