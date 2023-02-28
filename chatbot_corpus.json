@@ -107,7 +107,7 @@
         "300",
         "Troy",
         "Up",
-        "Inglorious Bastards",
+        "Fury",
         "Zombieland",
         "The Bourne Identity",
         "James Bond",
@@ -161,7 +161,7 @@
 	          "negative": ["The prequels were jsut before their time, only a few lines are bad. You're just a hater.", "The sequels are trash frfr, don't even talk about those.", "You just have to watch the Clone Wars, if you actually understood the story you wouldn't say that."]
 	      },
         "Lord of the Rings": {
-  	        "positive": ["one", "When the orc throws a dagger at Aragorn", "Did you know, in the two towers, when Aragorn kicks the helmet, Vigo Mortenson actually kicked a metal helmet and broke his toes his scream was just real pain!"],
+  	        "positive": ["Legolass what do your elf eyes see?", "When the orc throws a dagger at Aragorn, i was a real knife and he actually had to bat it away to not get cut.", "Did you know, in the two towers, when Aragorn kicks the helmet, Vigo Mortenson actually kicked a metal helmet and broke his toes his scream was just real pain!"],
 	          "negative": ["If you don't like it then you're just wrong, I mean, its the best novel adaptation in history", "Also, the extended editions aren't even that long, your attention span is just too short, not my fault you can't pay attention for the entire thing.", "Nasty little hobbit."]
 	      },
         "Gladiator": {
@@ -198,7 +198,7 @@
         },
         "Good Will Hunting" : {
             "positive": ["Did you know Matt Damon and Ben Afflek actually wrote the movie?", "Gotta love this one, such a classic and a great start for Ben Affleck and Matt Damon", "Robin Williams was so amazing, sucha tragedy what happened, he will be remembered and missed."],
-    	      "negative": ["It's so well done, worth the watch.", "Definitely give it a watch, might change the way you look at it.", "three"]
+    	      "negative": ["It's so well done, worth the watch.", "Definitely give it a watch, might change the way you look at it.", "It's your fault, it's your fault, it is your fault."]
         },
         "The Dark Knight" : {
             "positive": ["Christian Bale is definitely the best Batman AND Bruce Wayne, I mean come one he's amazing", "Christopher Nolan is just so sick with it, best super hero movies ever", "Heath Ledger still has the best Joker performance ever, brilliant"],
@@ -221,28 +221,28 @@
       	    "negative": ["You call yourself a movie fan?", "What even HAVE you watched?", "You still have time to get better taste"]
         },
         "Up" : {
-            "positive": ["Such a heartwarming story, I love Doug", "two", "three"],
-            "negative": ["one", "two", "three"]
+          "positive": ["Such a heartwarming story, I love Doug", "The beginning is so sad, but all together its just so good and wholesome", "Feelsbadman, old man goes crazy tho flying the house mad wild"],
+          "negative": ["How can you have missed this let alone not like it.", "You don't even posses a heart, how could yours break?", "I'm at the end of my wits here..."]
         },
-        "Inglorious Bastards" : {
-            "positive": ["one", "two", "three"],
-            "negative": ["one", "two", "three"]
+        "Fury" : {
+          "positive": ["Brad Pitt takes it away again with a great performance in yet another classic", "Brillaint cast, showing us what it's like to see the war from the inside of a tank", "It was just so raw, and it just made me see that, no matter what you won't understand the war unless you were there. A great new perpective."],
+          "negative": ["I think I've lost hope that you will ever have seen a good movie", "What do you even watch, and don't say Bullet Train, EVERYONE HAS SEEN BULLET TRAIN", "Wait till you see it. What a man can do to another man."]
         },
         "Zombieland" : {
-            "positive": ["one", "two", "three"],
-            "negative": ["one", "two", "three"]
+            "positive": ["Rule number one, Double Tap.", "Funniest zombie movie out there, and the sequel was great as well, rare thing to see.", "Time to nut up or shut up, hard to beat Woody Harrelson"],
+            "negative": ["Is your sense of humor broken? Or just your TV?", "Do you need me to venmo you for Netflix? Sounds like you do...", "I hope you like Bill Murray."]
         },
         "The Bourne Identity" : {
-            "positive": ["one", "two", "three"],
-            "negative": ["one", "two", "three"]
+            "positive": ["Amazing trilogy with some pretty good sequels, and its memeable, come on what else is there", "Gotta love the quick cuts action and early 2000 direction style", "Jesus Christ, thats Jason Bourne"],
+            "negative": ["Matt Damon would personally be disappointed in you", "You should get a better hobby than whatever it is you do while not watching good movies", "Jesus Christ, that's terrible taste."]
         },
         "James Bond" : {
-            "positive": ["one", "two", "three"],
-            "negative": ["one", "two", "three"]
+            "positive": ["Three words, Bond, James Bond.", "Gotta love Pierce Brosnan, but Daniel Craig is the GOAT THE GOAT", "Casino Royale is the best one for sure, but damn was No Time to Die an amazing way to end the series."],
+            "negative": ["He's not a mysoginist you just don't get it.", "I bet you're one of those, 'the book is better' people huh", "Shaken not stirred"]
         },
         "Avatar" : {
             "positive": ["James Cameron blew us out of the water with the new one, ha get it, out of the water", "The visual effects were so insane for their time, and now the second one was even crazier", "Colonel Quaritch is my favorite, what a sigma."],
-            "negative": ["Some people say it's too long, I just say that it's more to enjoy", "Just because someone is restless and can't pay attention doesn't mean you get to call it bad", "three"]
+            "negative": ["Some people say it's too long, I just say that it's more to enjoy", "Just because someone is restless and can't pay attention doesn't mean you get to call it bad", "Get a Disney+ subscription, you now have plans."]
         },
         "Catch Me if You Can" : {
             "positive": ["Just another great Leonardo Dicaprio film, love the dynamic between him and Tom Hanks", "No idea how he didn't win an oscar for this one, sad really.", "It's so cool how it was based on a true story, like how could someone even do all that?"],
@@ -250,11 +250,11 @@
         },
         "The Avengers" : {
             "positive": ["Captain America is my favorite Avneger, such a Chad.", "Ultron was the best villain by far, he got done dirty.", "Endgame is the best movie to have ever been created, nothing can top it like ever."],
-            "negative": ["Ew, I bet you unironically watched the Justice League movie", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
+            "negative": ["Ew, I bet you unironically watched the Justice League movie: tHe SnYdEr CuT wAs AcTuAlLy GoOd", "If not liking the Avengers isn't a crime, it should be", "Before you say anything, there are not too many of these movies, they are masterful."]
         },
         "Iron Man" : {
             "positive": ["The beginning of a new era, the first Iron Man is the best.", "Robert Downy Jr. was the only choice for Tony Stark. Jon Favreau did such a great job casting", "Gotta love the MCU, but this movie stands above the rest."],
-            "negative": ["How can you not like ", "two", "three"]
+            "negative": ["How can you not like Iron Man", "Seriously how can you not like Iron Man", "You have been villified in this community."]
         }
     },
     "input":{
@@ -287,6 +287,8 @@
         "Success is something between you and yourself. I think only you know where you've come from and how far you wanna go.",
         "Don't get bitter, just get better.",
         "I kind of have this mentality that says, 'everything will work out in the end. And if it's not working out, it's not the end.'",
-        "Your tone seems very pointed right now."
+        "Your tone seems very pointed right now.",
+        "Another banger by Shayne Topp from iCarly.",
+        "Try out Muck on steam, its free, GOTY 2024"
     ]
 }
