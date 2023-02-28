@@ -55,9 +55,8 @@ class chat(actor):
         
         msg = None
         for i in len(movie[msg_vibe]):
-            potential_msg = random.choice(movie[msg_vibe])
-            if potential_msg not in self.prev_msgs:
-                msg = potential_msg
+            msg = random.choice(movie[msg_vibe])
+            if msg not in self.prev_msgs:
                 break
 
         if msg == None:
@@ -128,7 +127,7 @@ class chat(actor):
             self.memorize_movie(movie_title)
             # We have progressed the state of the conversation, and forced them to talk about movies
             self.convo_state = "movies"
-            return "Honestly dude, I don't even know right now. I just watched " + movie_title + " again, you seen it?"
+            return "Honestly dude, I don't even know right now. I just watched " + movie_title + "again, you seen it?"
         else:
             # They went way off the rails
             return self.panic_mode()
