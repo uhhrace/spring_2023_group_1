@@ -173,34 +173,118 @@
 	        "positive": ["one", "two", "three"],
 	        "negative": ["one", "two", "three"]
 	},
-        "Jaws" : ["one", "two", "three"],
-        "The Good, the Bad and the Ugly" : ["one", "two", "three"],
-        "Braveheart" : ["one", "two", "three"],
-        "Jurassic Park" : ["one", "two", "three"],
-        "A Clockwork Orange" : ["one", "two", "three"],
-        "Goodfellas" : ["one", "two", "three"],
-        "Good Will Hunting" : ["one", "two", "three"],
-        "The Dark Knight" : ["one", "two", "three"],
-        "Blood Diamond" : ["one", "two", "three"],
-        "No Country for Old Men" : ["one", "two", "three"],
-        "Cinderella Man" : ["one", "two", "three"],
-        "V for Vendetta" : ["one", "two", "three"],
-        "Titanic" : ["one", "two", "three"],
-        "300" : ["one", "two", "three"],
-        "Troy" : ["one", "two", "three"],
-        "Up" : ["one", "two", "three"],
-        "Inglorious Bastards" : ["one", "two", "three"],
-        "The Hurt Locker" : ["one", "two", "three"],
-        "Kill Bill" : ["one", "two", "three"],
-        "The Last Samurai" : ["one", "two", "three"],
-        "Black Hawk Down" : ["one", "two", "three"],
-        "Zombieland" : ["one", "two", "three"],
-        "The Bourne Identity" : ["one", "two", "three"],
-        "James Bond" : ["one", "two", "three"],
-        "Avatar" : ["one", "two", "three"],
-        "Catch Me if You Can" : ["one", "two", "three"],
-        "The Avengers" : ["one", "two", "three"],
-        "Iron Man" : ["one", "two", "three"]
+        "Jaws" : {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Good, the Bad and the Ugly" : {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Braveheart": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Jurassic Park": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "A Clockwork Orange": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Goodfellas": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Good Will Hunting": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Dark Knight": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Blood Diamond": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "No Country for Old Men": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Cinderella Man": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "V for Vendetta": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Titanic": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "300": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Troy": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Up: {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Inglorious Bastards": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Hurt Locker": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Kill Bill": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Last Samurai": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Black Hawk Down": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Zombieland": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Bourne Identity": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "James Bond" : {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Avatar" : {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Catch Me if You Can": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "The Avengers" : {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
+        "Iron Man": {
+	        "positive": ["one", "two", "three"],
+	        "negative": ["one", "two", "three"]
+	},
     },
     "input":{
         "UH":{
